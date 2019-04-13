@@ -10,7 +10,7 @@ public class PrintableHashMap<K, V> extends HashMap<K, V> {
 			return "";
 		}
 		StringBuilder sb = new StringBuilder();
-		for (; ; ) {
+		while (true) {
 			Map.Entry<K, V> e     = i.next();
 			K               key   = e.getKey();
 			V               value = e.getValue();

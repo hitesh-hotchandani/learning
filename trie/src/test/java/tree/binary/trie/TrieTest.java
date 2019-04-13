@@ -44,6 +44,17 @@ public class TrieTest {
 		trie.insert("hello");
 		trie.insert("world");
 		trie.insert("worry");
+		trie.insert("worrying");
+		trie.insert("worried");
+		trie.insert("worrisome");
+		trie.insert("handsome");
+		trie.insert("merger");
+		trie.insert("testify");
+		trie.insert("awesome");
+		trie.insert("wholesome");
+		trie.insert("mere");
+		trie.insert("merry");
+		trie.insert("meri");
 		return trie;
 	}
 }
