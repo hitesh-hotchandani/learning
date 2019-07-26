@@ -4,17 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.learning</groupId>
-    <artifactId>examples</artifactId>
-    <packaging>pom</packaging>
+    <groupId>data.structures.examples</groupId>
+    <artifactId>DataStructures</artifactId>
     <version>1.0</version>
-    <modules>
-        <module>DataStructures</module>
-        <module>TextExamples</module>
-        <module>utils</module>
-        <module>problemstatements</module>
-        <module>pepperfry</module>
-    </modules>
     <build>
         <plugins>
             <plugin>
@@ -27,12 +19,12 @@
             </plugin>
         </plugins>
     </build>
+
     <dependencies>
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.0.0-beta3</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 </project>

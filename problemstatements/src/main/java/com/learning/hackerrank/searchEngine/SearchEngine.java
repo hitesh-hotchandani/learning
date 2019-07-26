@@ -86,9 +86,9 @@ class Trie {
 }
 
 class TrieNode {
-	private final Map<Character, TrieNode> children = new HashMap<>();
-	private int charWeight = -1;
-	private boolean isEndOfWord = false;
+	private final Map<Character, TrieNode> children    = new HashMap<>();
+	private       int                      charWeight  = -1;
+	private       boolean                  isEndOfWord = false;
 
 	Map<Character, TrieNode> getChildren() {
 		return children;
